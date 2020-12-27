@@ -14,6 +14,6 @@ package com.vallimalar.exercises.questions;
  */
 public class AcceptNameFromProgramArgsAndPrintHelloName {
     public static void main (String[] args) {
-        System.out.println("Hello " + args[0] + "!");
+
     }
 }
