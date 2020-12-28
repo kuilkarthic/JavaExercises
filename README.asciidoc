@@ -3,23 +3,46 @@
 This project contains all the exercises that I do in order to learn Java. 
 
 
-The exercises are in the `com.vallimalar.exercises.questions` package and **are** to be taken in the following order.
-
+== Exercises
+The exercises are in the `com.vallimalar.exercises.questions` package and *are* to be taken in the following order.
 
 . PrintHelloWorld
 . DeclareAVariableAndPrintIt
 . PrintHelloTenTimesWithALoop
-. Print Patterns
+. Print Patterns 1
 .. PrintPattern5Stars
 .. PrintPatternTriangle
-.. PrintPatternInvertedTriangle
-.. PrintPatternDiamond
-.. PrintPatternDiamondOfSizeN
 . ProgramArgs Exercises as below
 .. AcceptNameFromProgramArgsAndPrintHelloName
 .. Accept10RandomStringsUsingProgramArgsAndPrintThem
 .. Accept10RandomStringsUsingProgramArgsAndPrintThemWithForEachLoop
+.. AcceptTwoNumbersUsingProgramArgsAndPrintTheirSum
+. General Purpose Exercises as below
 . Input from `System.in` exercises as below
 .. TBA
+. Print Patterns 2
+.. PrintPatternInvertedTriangle
+.. PrintPatternDiamond
+.. PrintPatternDiamondOfSizeN
 
-TIP: The solutions are in the `com.vallimalar.exercises.solutions` package.
+== Solutions
+The solutions are in the `com.vallimalar.exercises.solutions` package.
+
+== FAQS
+. How can I pass program arguments ?
+.. Go to "Run -> Edit Run Configurations" in IntellijIdea
+.. Add a new run configuration - choosing the `application` template in the left box
+.. Give it an appropriate name at the top and then choose java11 for the executable
+.. Choose the main class which would be the fully qualified class from the right package for example `com.vallimalar.exercises.questions.PrintHelloName`
+.. Enter your name in the *program arguments box* and click on run
+
+== Resources
+:learning-the-language: https://docs.oracle.com/javase/tutorial/java/index.html
+:essential-java-classes: https://docs.oracle.com/javase/tutorial/essential/index.html
+:collections: https://docs.oracle.com/javase/tutorial/collections/index.html
+:date-time: https://docs.oracle.com/javase/tutorial/datetime/index.html
+. {learning-the-language}[Oracle Java Tutorial - Learning the Java Language]
+. {essential-java-classes}[Oracle Java Tutorial - Essential Java classes]
+. {collections}[Oracle Java Tutorial - Collections]
+. {date-time}[Oracle Java Tutorial - Date & Time classes]
+
